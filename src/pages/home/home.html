@@ -1,0 +1,19 @@
+<ion-header style="background-color: #35A6FF;">
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Manh Transportation <ion-icon name="car"></ion-icon></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3></h3>
+
+
+  <ion-slides *ngIf="details.length"  autoplay="5000" loop="true" speed="500" class="slides" pager="true">
+    <ion-slide *ngFor="let detail of details" >
+       <img src="{{detail}}" alt="notfound">
+    </ion-slide>
+</ion-slides>
+</ion-content>

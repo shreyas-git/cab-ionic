@@ -1,0 +1,36 @@
+page-booking-confirmation {
+
+}
+
+.numberCircle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    
+    background: #35A6FF;
+    border: 10px solid #666;
+    color: #fff;
+    text-align: center;
+    
+    font: 100px Arial, sans-serif;
+    font-weight: bold;
+}
+
+.text-on-bottom > .button-inner {
+    flex-direction: column;
+  }
+  b{
+      padding-left: 30%;
+  }
+
+  .check
+  {
+    color: #01BF49; 
+    font-size: 8em;
+    padding-left: 35%;
+    
+  }
+ 
